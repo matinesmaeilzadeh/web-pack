@@ -1,0 +1,67 @@
+body {
+}
+
+table {
+  border-collapse: seprated;
+
+  th {
+    &:hover {
+      scale: 1.1;
+      background-color: red;
+    }
+    border: 2px solid red;
+  }
+
+  tbody tr {
+    &:nth-child(2n -1) {
+      background-color: lightgray;
+    }
+    border-bottom: 2px solid red;
+  }
+}
+/*!%+KLDJFLSDJFL */
+
+table td span {
+  border: 2px solid red;
+}
+
+span {
+}
+
+table {
+  table-layout: fixed;
+  width: 100%;
+  border-collapse: collapse;
+  border: 3px solid purple;
+}
+
+thead th:nth-child(1) {
+  width: 30%;
+}
+
+thead th:nth-child(2) {
+  width: 20%;
+}
+
+thead th:nth-child(3) {
+  width: 15%;
+}
+
+thead th:nth-child(4) {
+  width: 35%;
+}
+
+th,
+td {
+  padding: 20px;
+}
+
+body {
+  background-color: #ffffff;
+  background-image: url("test.png");
+  background-repeat: no-repeat;
+  background-position: right top;
+}
+body {
+  background: #ffff url("test.png") no-repeat right top;
+}
